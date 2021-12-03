@@ -7,7 +7,7 @@ class SubmarineControls
     private int horizontal { get; set; }
     private int depth { get; set; }
 
-    public Submarine()
+    public SubmarineControls()
     {
         horizontal = 0;
         depth = 0;
