@@ -46,10 +46,19 @@ public class Program {
 
         //** Day 4 **//
 
-        BingoGame bg = new BingoGame();
+        // BingoGame bg = new BingoGame();
 
-        Console.WriteLine(bg.RunGame());
-        Console.WriteLine(bg.RunLosingGame());
+        // Console.WriteLine(bg.RunGame());
+        // Console.WriteLine(bg.RunLosingGame());
+
+        //** Day 5 **//
+        Grid grid = new Grid();
+        Coordinates.lines.ForEach(line => {
+            grid.ProcessLine(line);
+        });
+
+        // grid.ProcessLine(Coordinates.lines[2]);
+        Console.WriteLine(grid.GetTwoPlusOverlap());
 
 
      
