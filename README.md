@@ -12,3 +12,6 @@ We've added some C# dotnet to our curriculum and I want to get better at it. I'm
 Day 3 was a BEAR. And not in a cuddly way. I struggled with binary strings, conversion, and LINQ
 
 Day 4 I felt I did well. 2d Lists are ugly though.
+
+Day 5 I really tried to make objects for all the things, refactoring them was needed for the second part. Prob inefficient, but it works!
+
