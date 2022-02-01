@@ -52,13 +52,24 @@ public class Program {
         // Console.WriteLine(bg.RunLosingGame());
 
         //** Day 5 **//
-        Grid grid = new Grid();
-        Coordinates.lines.ForEach(line => {
-            grid.ProcessLine(line);
-        });
+        // Grid grid = new Grid();
+        // Coordinates.lines.ForEach(line => {
+        //     grid.ProcessLine(line);
+        // });
 
-        // grid.ProcessLine(Coordinates.lines[2]);
-        Console.WriteLine(grid.GetTwoPlusOverlap());
+        // // grid.ProcessLine(Coordinates.lines[2]);
+        // Console.WriteLine(grid.GetTwoPlusOverlap());
+
+
+        // ** Day 6 ** //
+        //80 Day cycle
+        // FishTank tank = new FishTank(256);
+        // Console.WriteLine(tank.GetPop());
+
+        FishTankV2 tank = new FishTankV2(256);
+        Console.WriteLine(tank.GetPop());
+
+
 
 
      

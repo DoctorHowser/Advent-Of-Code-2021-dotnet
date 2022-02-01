@@ -1,0 +1,5 @@
+namespace Advent;
+
+class PopulationModel {
+    
+}
