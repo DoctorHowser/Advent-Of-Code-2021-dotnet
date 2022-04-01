@@ -66,13 +66,19 @@ public class Program {
         // FishTank tank = new FishTank(256);
         // Console.WriteLine(tank.GetPop());
 
-        FishTankV2 tank = new FishTankV2(256);
-        Console.WriteLine(tank.GetPop());
+        // FishTankV2 tank = new FishTankV2(256);
+        // Console.WriteLine(tank.GetPop());
 
 
+        // ** Day 7 ** //
+        // CrabAlign crabFleet = new CrabAlign();
+        // Console.WriteLine(crabFleet.getFuelCostV2());
 
+        // Day 8
+        SegmentAnalyzer decoder = new SegmentAnalyzer();
+        SegmentCodes segmentCodes = new SegmentCodes();
+        Console.WriteLine(decoder.analyze(segmentCodes.Outputs));
 
-     
         
 
 
